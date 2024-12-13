@@ -81,9 +81,6 @@ Player service integrates with Ollama 🦙, which allows us to run LLMs locally.
 ### Player Endpoints
 - `GET /v1/players` - List all players
 - `GET /v1/players/:id` - Get a specific player
-- `POST /v1/players` - Create a new player
-- `PUT /v1/players/:id` - Update a player
-- `DELETE /v1/players/:id` - Delete a player
 
 ### Chat Endpoints
 - `GET /v1/chat/list-models` - List available LLM models
