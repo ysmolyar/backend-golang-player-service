@@ -4,7 +4,7 @@ Player Service is a backend application that serves baseball player data. In add
 
 ## Dependencies
 
-- [Go 1.21+](https://golang.org/dl/)
+- [Go 1.23+](https://golang.org/dl/)
 - [Make](https://www.gnu.org/software/make/)
 - [Docker](https://www.docker.com/)
 

@@ -1,8 +1,6 @@
 module github.com/your-org/backend-golang-player-service
 
-go 1.22.8
-
-toolchain go1.23.0
+go 1.23.0
 
 require (
 	github.com/gin-gonic/gin v1.10.0
