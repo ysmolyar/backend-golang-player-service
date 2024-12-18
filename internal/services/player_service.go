@@ -13,7 +13,7 @@ type PlayerService struct {
 }
 
 func NewPlayerService(db *gorm.DB) *PlayerService {
-	rand.Seed()
+	rand.Seed(time.Now().UnixNano())
 	return &PlayerService{db: db}
 }
 

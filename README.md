@@ -29,7 +29,14 @@ Player Service is a backend application that serves baseball player data. In add
 1. Install application dependencies
     - From the project's root directory, run: `make deps`
 
-### Part 2: Run Player Service
+### Part 2: Build Player Service
+
+1. Start the Player service
+   ```bash
+   make build
+   ```
+
+### Part 3: Run Player Service
 
 1. Start the Player service
    ```bash
@@ -40,7 +47,7 @@ Player Service is a backend application that serves baseball player data. In add
    1. Open your browser and visit `http://localhost:8080/v1/players`
    2. If the application is running successfully, you will see player data appear in the browser
 
-### Part 3: Start LLM Docker Container
+### Part 4: Start LLM Docker Container
 
 Player service integrates with Ollama 🦙, which allows us to run LLMs locally. This app runs [tinyllama](https://ollama.com/library/tinyllama) model.
 
@@ -70,7 +77,7 @@ Player service integrates with Ollama 🦙, which allows us to run LLMs locally.
    }'
    ```
 
-### Part 4: Verify Player Service and LLM Integration
+### Part 5: Verify Player Service and LLM Integration
 
 1. Ensure Player Service is running
 2. Visit `http://localhost:8080/v1/chat/list-models`

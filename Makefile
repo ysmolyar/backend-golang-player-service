@@ -13,7 +13,7 @@ build: ## Build the application
 
 # Run the application
 run: ## Run the application
-	go run $(MAIN_FILE)
+	./bin/$(BINARY_NAME)
 
 # Clean build files
 clean: ## Clean build files
